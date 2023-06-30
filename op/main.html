@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Login Page</title>
+    
+</head>
+<body>
+    <div class="container">
+        <div class="op"> 
+            <form form id="loginForm" onsubmit="return login()">
+                
+                <div class="ui">
+                    <div class="h">
+                        <h1>LOGIN</h1>
+                    </div>
+                    <div class="ip">
+                        <input type="email" class="io" id="emailInput" value="" oninput="changeLabelStyle()" />
+                        <label for="email" class="oo" id="emailLabel"><a href="#emailInput" >Email</a></label>
+                        <input type="password" class="io" id="passwordInput" value="" oninput="changeLabelStyle()" />
+                        <label for="password" class="oo" id="passwordLabel"><a href="#passwordInput" >Password</a></label>
+                    </div>
+                    <br>
+                    <div>
+                        <input type="submit" value="Login" class="login">
+                    </div>
+                </div>
+            </form>
+        </div> 
+
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
